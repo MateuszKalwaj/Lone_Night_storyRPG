@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef93fe5263bd2b488928d0fd9046998, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: Otwierasz drzwi, czy podchodzisz do balkonu?
+  nextStates:
+  - {fileID: 11400000, guid: feb90f652365592429090dd621235aaa, type: 2}
+  - {fileID: 11400000, guid: 2291a735ba662254e842a001d85ea8f7, type: 2}
